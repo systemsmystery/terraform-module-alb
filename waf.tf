@@ -41,6 +41,12 @@ resource "aws_wafv2_web_acl" "alb" {
       none {}
     }
 
+    visibility_config {
+      cloudwatch_metrics_enabled = false
+      metric_name                = "docker-host-alb-waf"
+      sampled_requests_enabled   = false
+    }
+
     statement {
       managed_rule_group_statement {
         name        = "AWSManagedRulesKnownBadInputsRuleSet"
