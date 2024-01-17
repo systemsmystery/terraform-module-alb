@@ -1,3 +1,10 @@
+## [1.0.2](https://gitlab.com/systemsmystery/terraform-modules/terraform-module-alb/compare/v1.0.1...v1.0.2) (2024-01-17)
+
+
+### Bug Fixes
+
+* added variable for logging bucket ([638d054](https://gitlab.com/systemsmystery/terraform-modules/terraform-module-alb/commit/638d05464ca9cd988cfcef2a0f8631e0a36ee4da))
+
 ## [1.0.1](https://gitlab.com/systemsmystery/terraform-modules/terraform-module-alb/compare/v1.0.0...v1.0.1) (2024-01-17)
 
 
